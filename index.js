@@ -9,7 +9,7 @@ const app = express();
 
 // CORS configuration
 const corsOptions = {
-  origin: ['http://localhost:5173', 'http://127.0.0.1:5173','https://empty-cup-frontend-omega.vercel.app'],
+  origin: ['http://localhost:5173', 'http://127.0.0.1:5173','https://empty-cup-frontend-main.vercel.app'],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
   credentials: true,
   optionsSuccessStatus: 200
